@@ -1,6 +1,6 @@
 import styles from "../style";
-import { discount,  robot } from "../assets";
-import GetStarted from "./GetStarted";
+import { discount,ppl } from "../assets";
+// import GetStarted from "./GetStarted";
 
 const Hero = () => {
   return (
@@ -28,14 +28,13 @@ const Hero = () => {
          Solution Tool.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Our team of experts uses a methodology to identify the credit cards
-          most likely to fit your needs. We examine annual percentage rates,
-          annual fees.
+         Our platform boast a wide array of products with the aim 
+         of having all the tools you need in just one place. Sign up Today for a 30% discount!
         </p>
       </div>
 
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-        <img src={robot} alt="robot" className="w-[100%] h-[100%] relative z-[5]" />
+        <img src={ppl} alt="robot" className="w-[100%] h-[100%] relative z-[5]" />
 
         {/* gradient start */}
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
